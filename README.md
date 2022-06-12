@@ -35,3 +35,7 @@ First off, you'll want **Rust**, **Node/NPM** and **Tauri** installed.
 - Run `npm run tauri dev`
 - Let the magic happen!
 - To compile into release-optimised binaries, run `cargo tauri build`
+
+## Project Structure
+- [Backend](https://github.com/JSKitty/wallpape.rs/tree/master/src-tauri/src) (Rust)
+- [Frontend](https://github.com/JSKitty/wallpape.rs/tree/master/dist) (HTML, CSS, JS)
