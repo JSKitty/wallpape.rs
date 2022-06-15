@@ -8,6 +8,12 @@ h1 {
 }
 
 .preview_img {
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
+    transition: 0.2s;
+    opacity: 0.65;
+}
+
+.preview_img:hover {
+    opacity: 1;
 }
