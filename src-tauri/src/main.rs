@@ -7,6 +7,7 @@ mod commands;
 
 fn main() {
     tauri::Builder::default()
+        .plugin(tauri_plugin_persisted_scope::init())
         .invoke_handler(tauri::generate_handler![
             commands::fetch_wallpaper_paths,
             commands::set_wallpaper_path

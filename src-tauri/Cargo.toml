@@ -25,6 +25,7 @@ tauri-build = { version = "1.0.0-rc.12", features = [] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 tauri = { version = "1.0.0-rc.14", features = ["dialog-open", "protocol-asset"] }
+tauri-plugin-persisted-scope = { version = "0.1", features = ["protocol-asset"] }
 
 [features]
 # by default Tauri runs in production mode
